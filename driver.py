@@ -8,11 +8,13 @@ DB_SETTINGS = {
     'password': 'root'
 }
 
-connection = psycopg2.connect(**DB_SETTINGS)
-cursor = connection.cursor()
+# connection = psycopg2.connect(**DB_SETTINGS)
+# cursor = connection.cursor()
+#
+# cursor.execute('SELECT * FROM employees')
+# print(cursor.fetchmany(size=2000))
 
-cursor.execute('SELECT * FROM employees')
-print(cursor.fetchmany(size=2000))
+
 
 
 # # Create employees table
